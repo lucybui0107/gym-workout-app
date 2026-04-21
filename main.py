@@ -2,6 +2,11 @@ import streamlit as st
 from streamlit_gsheets import GSheetsConnection
 import pandas as pd  # Thêm dòng này để sửa lỗi 'pd' is not defined
 
+st.set_page_config(
+    page_title="Lịch Tập Gym",
+    page_icon="🏋️", # Đây sẽ là icon nhỏ trên tab trình duyệt
+    layout="wide"
+)
 # Cấu hình trang
 st.set_page_config(page_title="Lịch Tập Gym - Phase 1", layout="wide")
 
